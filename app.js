@@ -13,6 +13,11 @@ app.use((req, res, next) => {
     return next();
 })
 
+app.use((req, res, next) => {
+    console.log("Middleware Three <---");
+    return next();
+})
+
 app.use((req, res) => res.send('<h1>Express is working</h1>'));
 app.listen(3000);
 
