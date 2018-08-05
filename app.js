@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 //app.use(fav);
 
-app.use((req, res, next) => {
+app.use("/one", (req, res, next) => {
     console.log("Middleware One <---");
     return next();
 },
