@@ -6,6 +6,10 @@ const app = express();
 app.use((req, res, next) => {
     console.log("Middleware One <---");
     return next();
+},
+(req, res, next) => {
+    console.log("Middleware One & a Half <---");
+    return next();
 })
 
 app.use((req, res, next) => {
