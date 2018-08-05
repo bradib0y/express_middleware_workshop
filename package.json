@@ -1,0 +1,31 @@
+{
+  "name": "express_middleware_workshop",
+  "version": "1.0.0",
+  "description": "workshop project for educational purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradib0y/express_middleware_workshop.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Balazs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradib0y/express_middleware_workshop/issues"
+  },
+  "homepage": "https://github.com/bradib0y/express_middleware_workshop#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "install": "^0.12.1",
+    "npm": "^6.3.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
